@@ -2,15 +2,19 @@ import React from 'react'
 import { BrowserRouter, Route} from 'react-router-dom'
 import{
     Home,
-    Works 
+    Works,
+    Header 
 } from './components/index'
 
 const Router = ()=>{
 	return (
-    <BrowserRouter>
-        <Route exact path="/" component={Home} ></Route>
-        <Route exact path="/works" component={Works} ></Route>
-    </BrowserRouter>
+    <>
+        <Header />
+        <BrowserRouter>
+            <Route exact path="/" component={Home} ></Route>
+            <Route exact path="/works" component={Works} ></Route>
+        </BrowserRouter>
+    </>
 )
 }
 

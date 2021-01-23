@@ -1,0 +1,47 @@
+.full-screen-train {
+    position: relative;
+    width: 100%;
+    min-height: 93vh;
+    background: url('../img/train.jpg')
+      center / cover;
+}
+
+.header{
+  height: 7vh;
+  background-color: #ae9584;
+  width: 100%;
+  display: flex;
+  font-weight: bold;
+}
+
+.h-left{
+  margin-left: 50px;
+  margin-right: auto;
+  font-size: 20px;
+  line-height: 7vh;
+  /* font-family: 'Coda Caption', sans-serif; */
+  font-family: 'Fraunces', serif;
+}
+
+.h-right{
+  display: flex;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.h-right a{
+  display: block;
+  margin: 0 13px;
+  padding: 0 15px;
+  font-size: 20px;
+  line-height: 7vh;
+  cursor: pointer;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.h-right a:hover{
+  background-color: #bca79a;
+  opacity: 0.6;
+}
+
