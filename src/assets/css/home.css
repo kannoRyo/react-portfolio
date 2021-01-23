@@ -1,0 +1,7 @@
+.full-screen-train {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url('./assets/img/train.jpg')
+      center / cover;
+  }
