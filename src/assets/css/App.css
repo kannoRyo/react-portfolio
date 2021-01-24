@@ -1,12 +1,11 @@
 .full-screen-train {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    background: url('../img/train.jpg')
-      center / cover;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/train.jpg") center / cover;
 }
 
-.header{
+.header {
   height: 7vh;
   background-color: #ae9584;
   width: 100%;
@@ -14,26 +13,26 @@
   font-weight: bold;
 }
 
-.h-left{
+.h-left {
   margin-left: 50px;
   margin-right: auto;
   line-height: 7vh;
 }
 
-.h-left p{
+.h-left p {
   font-size: 18px;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   margin: 0;
   font-weight: bold;
 }
 
-.h-right{
+.h-right {
   display: flex;
   margin-left: auto;
   margin-right: 85px;
 }
 
-.h-right a{
+.h-right a {
   display: block;
   margin: 0 13px;
   padding: 0 15px;
@@ -42,19 +41,18 @@
   cursor: pointer;
   color: black;
   /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
 }
 
-.h-right a:hover{
+.h-right a:hover {
   background-color: #bca79a;
   opacity: 0.6;
 }
 
-.heading{
+.heading {
   font-size: 78px;
   text-align: center;
   color: white;
   font-weight: bold;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
 }
-
