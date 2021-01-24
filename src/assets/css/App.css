@@ -1,7 +1,7 @@
 .full-screen-train {
     position: relative;
     width: 100%;
-    min-height: 93vh;
+    min-height: 100vh;
     background: url('../img/train.jpg')
       center / cover;
 }
@@ -17,16 +17,20 @@
 .h-left{
   margin-left: 50px;
   margin-right: auto;
-  font-size: 20px;
   line-height: 7vh;
-  /* font-family: 'Coda Caption', sans-serif; */
+}
+
+.h-left p{
+  font-size: 18px;
   font-family: 'Fraunces', serif;
+  margin: 0;
+  font-weight: bold;
 }
 
 .h-right{
   display: flex;
   margin-left: auto;
-  margin-right: 50px;
+  margin-right: 85px;
 }
 
 .h-right a{
@@ -36,6 +40,7 @@
   font-size: 20px;
   line-height: 7vh;
   cursor: pointer;
+  color: black;
   /* font-family: 'Roboto', sans-serif; */
   font-family: 'Shadows Into Light', cursive;
 }
@@ -43,5 +48,13 @@
 .h-right a:hover{
   background-color: #bca79a;
   opacity: 0.6;
+}
+
+.heading{
+  font-size: 78px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: 'Fraunces', serif;
 }
 

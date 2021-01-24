@@ -3,16 +3,16 @@ import { BrowserRouter, Route} from 'react-router-dom'
 import{
     Home,
     Works,
-    Header 
+    Contact
 } from './components/index'
 
 const Router = ()=>{
 	return (
     <>
-        <Header />
         <BrowserRouter>
             <Route exact path="/" component={Home} ></Route>
             <Route exact path="/works" component={Works} ></Route>
+            <Route exact path="/contact" component={Contact} ></Route>
         </BrowserRouter>
     </>
 )

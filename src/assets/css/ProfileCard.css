@@ -12,6 +12,11 @@
     margin: auto 35px
 }
 
+.p-left img{
+    width: 250px;
+    height: 250px;
+}
+
 .p-right{
     width: 60%;
     margin: 20px 30px
@@ -28,4 +33,8 @@
 
 .p-right-intro{
     margin:20px 0;
+}
+
+.p-right-intro p {
+    margin: 0;
 }

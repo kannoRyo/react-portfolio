@@ -1,12 +1,13 @@
 import React from 'react'
-import '../assets/css/Home.css'
-import {ProfileCard} from './index'
+import '../assets/css/home.css'
+import {ProfileCard,Header} from './index'
 
 const Home = ()=>{
 
 	return (
 	<div className="full-screen-train">
-        <h1>KannoRyo PortFolio</h1>
+        <Header/>
+        <h1 className="heading">KannoRyo PortFolio</h1>
         <ProfileCard/>
     </div>
 )
