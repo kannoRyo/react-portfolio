@@ -32,7 +32,7 @@ const WorksCard = (props: WorksCard)=>{
 				))
 			}
 		</ul>
-		<a href={props.github}　target="_blank">GitHub</a>
+		<a href={props.github}　target="_blank" style={{position: "relative",top: '50px'}}>GitHub</a>
 	</div>
 )
 }

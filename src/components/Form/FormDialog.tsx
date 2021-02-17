@@ -23,7 +23,7 @@ const FormDialog = ()=>{
     },[description])
 
     const submitSlack = (name: string, email: string, description: string)=>{
-        const url = "https://hooks.slack.com/services/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"
+        const url = "https://hooks.slack.com/services/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"
 
         const payload = {
             text:'お問い合わせがありました。\n' +

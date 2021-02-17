@@ -1,15 +1,19 @@
 .works-card {
   height: 535px;
   width: 335px;
-  background-color: #a8a8a8;
+  background-color: #e0e0e0;
   margin-left: 16px;
   margin-right: 16px;
   border-radius: 8px;
   font-family: "Noto Sans JP", sans-serif;
 }
 
+.works-card h3 {
+  color: white;
+}
+
 h2 {
-  margin: 15px 0 10px 0;
+  margin: 22px 0 25px 0;
   text-align: center;
   font-weight: bold;
 }
